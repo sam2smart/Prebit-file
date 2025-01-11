@@ -1,0 +1,78 @@
+Resources on AdTech
+1. Ad Tech Fundamentals:
+    a. What is Programmatic Advertising (Explained in 16 minutes)
+
+        Programmatic advertising is the automated buying and selling of digital advertising space using software and algorithms. Instead of the traditional method of manually negotiating ad placements, programmatic advertising uses real-time bidding (RTB) and automated systems to purchase ad impressions across websites, mobile apps, and other digital platforms.
+
+    b. Real-Time Bidding (RTB) Explained (Beginner-Friendly Video)
+
+Let me break down Real-Time Bidding (RTB) - it's a fascinating process that happens in milliseconds every time a webpage loads.
+Real-Time Bidding Process FlowClick to open diagram
+Here's how RTB works in detail:
+
+The Trigger
+When a user visits a webpage with an ad space, it initiates an instantaneous auction process.
+Data Collection & Distribution
+
+
+The publisher's site collects available data about the visitor
+This includes contextual data (webpage content), user demographics, location, device type
+Browser cookies and other identifiers help match users to existing profiles
+
+
+The Auction Process
+
+
+The publisher's Supply-Side Platform (SSP) sends this information to ad exchanges
+Ad exchanges broadcast the opportunity to multiple Demand-Side Platforms (DSPs)
+DSPs analyze the opportunity against their advertisers' requirements:
+
+Target audience match
+Budget availability
+Campaign goals
+Historical performance
+
+
+Each DSP submits a bid if the opportunity matches their criteria
+
+
+Bid Resolution
+
+
+The ad exchange evaluates all received bids
+The highest bidder wins the impression
+The winning price is often determined by second-price auction (winner pays slightly above second-highest bid)
+
+
+Ad Delivery
+
+
+The winning ad creative is delivered to the user's browser
+The entire process completes in around 100 milliseconds
+The user sees the ad as the page loads, unaware of the complex auction that just occurred
+
+Key Technical Requirements:
+
+High-speed connections and processing
+Robust data management systems
+Real-time decision-making algorithms
+Fraud detection mechanisms
+Quality control systems
+
+Common Challenges:
+
+Latency issues affecting page load times
+Data privacy compliance (especially with GDPR, CCPA)
+Ad fraud prevention
+Inventory quality control
+Accurate user identification across devices
+
+RTB continues to evolve with new technologies and privacy regulations. The introduction of solutions like header bidding and server-side auctions has further refined the process, while the deprecation of third-party cookies is pushing the industry toward new targeting solutions.
+
+    2. What is Header Bidding? (Explained in 15 minutes)
+Functional Patterns Prebid.js
+https://www.youtube.com/watch?v=kSytwSUsV4o 
+OpenRTB Protocol:
+OpenRTB Overview (IAB Tech Lab)
+https://www.youtube.com/watch?v=3287d061j9g 
+https://iabtechlab.com/wp-content/uploads/2022/04/OpenRTB-2-6_FINAL.pdf 
